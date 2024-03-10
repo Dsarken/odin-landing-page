@@ -1,2 +1,2 @@
 # odin-landing-page
-A landing page project built for The Odin Project
+A landing page designed as part of The Odin project
