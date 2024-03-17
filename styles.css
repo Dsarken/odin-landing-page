@@ -1,0 +1,242 @@
+@font-face {
+  font-family: PlayFontRegular;
+  src: url("fonts/Play/Play-Regular.ttf");
+}
+
+@font-face {
+  font-family: PlayFontBold;
+  src: url("fonts/Play/Play-Bold.ttf");
+}
+
+body {
+  font-family: PlayFontRegular;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-link {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 10px;
+}
+
+.section-one {
+  background-color: #1f2937;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.main-content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.main-content-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  padding: 16px;
+  font-size: 20px;
+  font-family: "PlayFontRegular";
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font: bolder;
+  text-align: center;
+}
+
+.p-first {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.first-section-sign-up {
+  background-color: #3882f6;
+  font-family: PlayFontRegular;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 1px #3882f6;
+  border-radius: 10px;
+}
+
+.row-of-arsenal-pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px;
+  max-width: 100%;
+}
+
+.box-blue {
+  border: 3px solid #3882f6;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.box-blue img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill; /* This will cover the entire area of the div */
+}
+
+.box-blue img:hover {
+  transform: scale(1.1); /* Adjust the value to control the zoom level */
+  transition: transform 0.2s ease-in-out; /* Smooth transition for the zoom effect */
+}
+
+.main-content-right img:hover {
+  transform: scale(1.1); /* Adjust the value to control the zoom level */
+  transition: transform 0.2s ease-in-out; /* Smooth transition for the zoom effect */
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p-second {
+  text-align: center;
+  font-size: 18px;
+}
+
+.section-three {
+  background-color: #e5e7eb;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f3927;
+  text-align: center;
+}
+
+.p-third {
+  font-size: 18px;
+  text-align: end;
+}
+
+#p-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 600px;
+}
+
+.section-four {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-container {
+  background-color: #3882f6;
+  width: 75%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.left {
+  width: 80%;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h4 {
+  font-size: 24px;
+  color: white;
+}
+
+.last-p {
+  color: white;
+  font-size: 18px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.button-last-div {
+  background-color: #3882f6;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 100px;
+}
